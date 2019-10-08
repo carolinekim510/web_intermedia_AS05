@@ -2,15 +2,28 @@
  * your comment header here
  */
 
-footer{
-    background: #bdd7ff;
+
+html, body {
+    max-width: 1100px !important;
+    height: auto;
+    margin: auto;
+    padding: 0;
+    font-family:  'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #49515a !important;
+    background-color: #ffffff !important;
+}
+img#logo {
+    width: 50%;
 }
 
-.nav-section{
-    padding-top: 10px;
-    height: 60px;
-    background: #5681c4;
+.bg-light {
+    background-color: #ffffff !important;
 }
+
+
+
 
 .body-div{
     text-align: center;
@@ -19,4 +32,9 @@ footer{
 
 .centered{
     text-align: center;
+}
+
+/* Footer style */
+footer{
+    background: #bdd7ff;
 }
