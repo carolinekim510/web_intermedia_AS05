@@ -23,7 +23,7 @@ $footer = file_get_contents('templates/footer.html');
  */
 
 //this will be used to send the page title into the page
-$header_data = ["pagetitle" => "Home Page"];
+$header_data = ["pagetitle" => "KPOP Page"];
 
 //this is empty because there is no data to send to the body in this example
 $body_data = [];
