@@ -18,13 +18,74 @@ img#logo {
     width: 50%;
 }
 
-.bg-light {
-    background-color: #ffffff !important;
+/* Navigation CSS */
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a, .navbar label {
+    display: block;
+    padding: 20px;
+    color: #49515a;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.navbar a:hover, .navbar label:hover { color: #aaa; }
+
+.navbar label {
+    float: right;
+    padding: 18px 20px;
+    cursor: pointer;
+}
+
+.navbar label:after {
+    content: "\2261";
+    font-size: 1.8em;
+}
+
+.logo {
+    float: left;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav {
+    float: right;
+    max-height: 0;
+    padding-top: 20px;
+    width: 100%;
+    -webkit-transition: max-height 0.3s;
+    -moz-transition: max-height 0.3s;
+    -o-transition: max-height 0.3s;
+    transition: max-height 0.3s;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+nav li {
+    display: block;
+    text-align: center;
+}
+
+nav a {
+    padding: 10px;
+    width: 100%;
+}
+
+#nav {
+    display: none; }
+
+#nav:checked ~ nav {
+    max-height: 315px;
 }
 
 
-
-
+/* Body CSS */
 .body-div{
     text-align: center;
     margin-top: 20px;
@@ -34,7 +95,93 @@ img#logo {
     text-align: center;
 }
 
-/* Footer style */
+
+/* Email CSS */
+#error_page {
+    height: auto;
+    margin: auto;
+    padding: 0;
+    font-family:  'Work Sans', sans-serif;
+}
+
+img.email {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+#good_page {
+    height: auto;
+    margin: auto;
+    padding: 0;
+    font-family:  'Work Sans', sans-serif;
+}
+
+.form-container{
+    text-align: center;
+    margin: 50px auto;
+    width: 100%;
+}
+
+#form-div {
+    margin: auto 10px;
+}
+
+.contact-form {
+    width: 100%;
+    height: 30px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+#message {
+    height: 100px;
+}
+
+#answer-area {
+    height: 100px;
+}
+
+
+/* Footer CSS */
 footer{
     background: #bdd7ff;
+}
+
+
+
+/* Start responsive */
+
+@media only screen and (min-width: 700px) {
+
+    .navbar label { display: none; }
+
+    nav {
+        width: auto;
+        max-height: none;
+    }
+
+    nav ul {
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    nav li {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .navbar nav a {
+        display: inline-block;
+        padding: 20px 10px;
+        width: auto;
+    }
+
+    /* desktop css goes here */
+    .form-container{
+        width: 60%;
+    }
+
 }

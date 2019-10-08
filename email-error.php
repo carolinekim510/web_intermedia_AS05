@@ -12,7 +12,7 @@ $mustache = new Mustache_Engine;
 
 //these lines load your header, footer, and body template into strings
 $header = file_get_contents('templates/header.html');
-$body = file_get_contents('templates/home.html');
+$body = file_get_contents('templates/email-error.html');
 $footer = file_get_contents('templates/footer.html');
 
 /*
@@ -23,7 +23,7 @@ $footer = file_get_contents('templates/footer.html');
  */
 
 //this will be used to send the page title into the page
-$header_data = ["pagetitle" => "KPOP Page"];
+$header_data = ["pagetitle" => "CONTACT ERROR Page"];
 
 //this is empty because there is no data to send to the body in this example
 $body_data = [];
@@ -31,7 +31,7 @@ $body_data = [];
 //this is being used to send a footer title and local time to the footer
 $footer_data = [
     "localtime" => date('l jS \of F Y h:i:s A'),
-    "footertitle" => "HOME Page"];
+    "footertitle" => "CONTACT ERROR Page"];
 
 /*
  * this combines the variables with the templates and creates a complete web page.
