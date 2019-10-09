@@ -16,6 +16,7 @@ html, body {
 }
 a {
     color: #49515a;
+    text-decoration: none;
 }
 
 img#logo {
@@ -267,6 +268,17 @@ iframe.mv {
     height: 315px;
 }
 
+.artist_text_box01 {
+    float: left;
+}
+.artist_text_box02 {
+    float: left;
+}
+
+.album {
+    width: 30%;
+    display: inline-block;
+}
 
 
 /* Footer CSS */
@@ -280,7 +292,6 @@ footer{
 
 
 /* Start responsive */
-
 @media only screen and (min-width: 700px) {
 
     .navbar label { display: none; }
@@ -361,5 +372,33 @@ footer{
     .img_fm {
         width: 33%;
         display: inline-block;
+    }
+
+    .artist_text_box01 {
+        width: 30%;
+        float: left;
+    }
+    .artist_text_box02 {
+        width: 68%;
+        float: left;
+        margin-left: 16px;
+    }
+
+    .album {
+        width: 16%;
+        display: inline-block;
+        padding: 9px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .artist_text_box01 {
+        width: 100%;
+        float: left;
+    }
+    .artist_text_box02 {
+        margin: 0;
+        float: left;
+        width: 100%;
     }
 }
