@@ -16,6 +16,7 @@ html, body {
 }
 img#logo {
     width: 50%;
+    padding-left: 15px;
 }
 
 /* Navigation CSS */
@@ -25,7 +26,8 @@ img#logo {
 
 .navbar a, .navbar label {
     display: block;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #49515a;
     text-decoration: none;
     line-height: 20px;
@@ -35,7 +37,7 @@ img#logo {
 
 .navbar label {
     float: right;
-    padding: 18px 20px;
+    padding: 35px 20px;
     cursor: pointer;
 }
 
@@ -73,7 +75,6 @@ nav li {
 }
 
 nav a {
-    padding: 10px;
     width: 100%;
 }
 
@@ -93,6 +94,65 @@ nav a {
 
 .centered{
     text-align: center;
+}
+
+
+/* Banner CSS */
+.banner_column {
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img.home_banner01 {
+    width: 100%;
+}
+
+img.contact_us {
+    width: 100%;
+}
+
+img.main-img {
+    width: 100%;
+}
+
+.col-1 {
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col-2 {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+
+}
+.col-2-2 {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: -3px;
+}
+
+.col-4-01 {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+    display: inline-block;
+}
+
+.col-4-02 {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+    display: inline-block;
+    background-image: url("image/main-col-02.png");
 }
 
 
@@ -147,9 +207,12 @@ img.email {
 
 /* Footer CSS */
 footer{
-    background: #bdd7ff;
+    background: #ffffff;
+    padding-bottom: 55px;
 }
-
+.my-4 {
+    margin: 50px 0 50px 0 !important;
+}
 
 
 /* Start responsive */
@@ -182,6 +245,23 @@ footer{
     /* desktop css goes here */
     .form-container{
         width: 60%;
+    }
+
+
+    .col-1 {
+        width: 98%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -3px;
+    }
+
+    .col-2 {
+        width: 50%;
+    }
+
+
+    .col-4-01, .col-4-02 {
+        width: 50%;
     }
 
 }

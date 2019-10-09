@@ -31,7 +31,7 @@ $body_data = [];
 //this is being used to send a footer title and local time to the footer
 $footer_data = [
     "localtime" => date('l jS \of F Y h:i:s A'),
-    "footertitle" => "CONTACT ERROR Page"];
+    "footertitle" => "Contact ERROR Page"];
 
 /*
  * this combines the variables with the templates and creates a complete web page.
