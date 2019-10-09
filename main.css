@@ -108,6 +108,20 @@ img.home_banner01 {
     width: 100%;
 }
 
+img#mama {
+    width: 50%;
+    padding: 70px;
+}
+
+img#bts_gr {
+    width: 18%;
+    padding: 50px;
+}
+
+img#bp_gr {
+    padding: 50px;
+}
+
 img.contact_us {
     width: 100%;
 }
@@ -135,7 +149,7 @@ img.main-img {
     width: 100%;
     height: auto;
     float: left;
-    margin-bottom: -3px;
+    margin-bottom: -4px;
 }
 
 .col-4-01 {
@@ -152,9 +166,28 @@ img.main-img {
     margin-left: auto;
     float: left;
     display: inline-block;
-    background-image: url("image/main-col-02.png");
 }
 
+.col-4-02-mama {
+    background-color: #f89d8f;
+    width: 100%;
+    float: left;
+}
+
+.col-4-02-bts {
+    background-color: #c2e6e4;
+    width: 100%;
+    float: left;
+}
+.col-4-02-bp {
+    background-color: #fbc78a;
+    width: 100%;
+    float: left;
+}
+
+h3.headline {
+    padding: 10% 5px;
+}
 
 /* Email CSS */
 #error_page {
@@ -247,7 +280,6 @@ footer{
         width: 60%;
     }
 
-
     .col-1 {
         width: 98%;
         margin-right: auto;
@@ -259,9 +291,23 @@ footer{
         width: 50%;
     }
 
-
     .col-4-01, .col-4-02 {
         width: 50%;
+    }
+
+    .col-4-02-mama {
+        width: 50%;
+    }
+
+    .col-4-02-bts {
+        width: 50%;
+    }
+    .col-4-02-bp {
+        width: 50%;
+    }
+
+    h3.headline {
+        padding: 29% 5px;
     }
 
 }
