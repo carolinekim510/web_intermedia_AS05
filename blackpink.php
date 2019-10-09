@@ -12,7 +12,7 @@ $mustache = new Mustache_Engine;
 
 //these lines load your header, footer, and body template into strings
 $header = file_get_contents('templates/header.html');
-$body = file_get_contents('templates/home.html');
+$body = file_get_contents('templates/blackpink.html');
 $footer = file_get_contents('templates/footer.html');
 
 /*
