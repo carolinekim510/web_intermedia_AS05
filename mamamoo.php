@@ -1,12 +1,6 @@
 <?php
 /*
-*********************************************************
-Name: Caroline Kim
-Assignment: 05
-Purpose: Build a website with templating header.html and footer.html
-Notes: This page has three sections and calls the page in parts.
-Header and footer portion will be pulled from the header.html, footer.html and the body will be pulled from individually typed html page.
-*********************************************************
+ * your comment header here
  */
 
 //this will load the mustache template library
@@ -18,7 +12,7 @@ $mustache = new Mustache_Engine;
 
 //these lines load your header, footer, and body template into strings
 $header = file_get_contents('templates/header.html');
-$body = file_get_contents('templates/email-success.html');
+$body = file_get_contents('templates/mamamoo.html');
 $footer = file_get_contents('templates/footer.html');
 
 /*
@@ -29,7 +23,7 @@ $footer = file_get_contents('templates/footer.html');
  */
 
 //this will be used to send the page title into the page
-$header_data = ["pagetitle" => "CONTACT Success Page"];
+$header_data = ["pagetitle" => "MAMAMOO Page"];
 
 //this is empty because there is no data to send to the body in this example
 $body_data = [];
@@ -37,7 +31,7 @@ $body_data = [];
 //this is being used to send a footer title and local time to the footer
 $footer_data = [
     "localtime" => date('l jS \of F Y h:i:s A'),
-    "footertitle" => "Contact Success Page"];
+    "footertitle" => "MAMAMOO Page"];
 
 /*
  * this combines the variables with the templates and creates a complete web page.

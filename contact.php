@@ -1,7 +1,13 @@
 <?php
 
 /*
- * your comment header here
+*********************************************************
+Name: Caroline Kim
+Assignment: 05
+Purpose: Build a website with templating header.html and footer.html
+Notes: This page has three sections and calls the page in parts.
+Header and footer portion will be pulled from the header.html and the body will be pulled from individually typed html page.
+*********************************************************
  */
 
 //this will load the mustache template library

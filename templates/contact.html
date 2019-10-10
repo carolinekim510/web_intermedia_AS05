@@ -1,0 +1,57 @@
+<!--
+*********************************************************
+Name: Caroline Kim
+Assignment: 05
+Purpose: Build a website with templating header.html and footer.html
+Notes: This is contact.html. On click it takes attributes from the fields then send them to the js -> php to get the results
+This won't show which of the fields are entered incorrectly.  It will just redirect to the error page of php.
+*********************************************************
+-->
+
+
+<div class="body-div">
+    <!-- Banner -->
+    <div class="banner_column">
+        <img src="image/contact_us.png" alt="Contact Us" class="contact_us">
+    </div>
+
+    <!-- Form -->
+    <div class="form-container">
+        <div id="msg">
+            <br>
+        </div>
+        <div id="form-div">
+            <!-- Your form goes here -->
+            <form id="msg-form" name="names-form" action="email.php" method="post" >
+                <div id='ss'></div>
+                <div id="answer-area"></div>
+                <div class="form-group">
+                    <!-- Name: -->
+                    <input type="text" placeholder="Your Name" class="contact-form" maxlength="64" id="name" name="full-name">
+                </div>
+                <div class="form-group">
+                    <!-- Return Email: -->
+                    <input type="email" placeholder="Return Email" class="contact-form" maxlength="64" id="email-01" name="user-email01">
+                </div>
+                <div class="form-group">
+                    <!-- Re-enter Email: -->
+                    <input type="email" placeholder="Re-Enter Email" class="contact-form" maxlength="64" id="email-02" name="user-email02">
+                </div>
+                <div class="form-group">
+                    <!-- Subject -->
+                    <input type="text" placeholder="Subject" class="contact-form" maxlength="64" id="subject" name="title">
+                </div>
+                <div class="form-group">
+                    <!-- Message: -->
+                    <textarea placeholder="Message" class="contact-form" id="message" name="user-msg"></textarea>
+                </div>
+                <div class="button">
+                    <button id="msg-send" type="button">Send</button>
+                    <button id="msg-clear" type="button">Clear</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</div>
