@@ -1,6 +1,10 @@
 <?php
 /*
- * your comment header here
+Name: Caroline Kim
+Assignment: 05
+Purpose: Build a website with templating header.html and footer.html
+Notes: This page is home page. The very first page of the site.  Even it has the most contents,
+the site is still divided into three parts that are linking.
  */
 
 //this will load the mustache template library

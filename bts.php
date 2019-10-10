@@ -1,6 +1,10 @@
 <?php
 /*
- * your comment header here
+Name: Caroline Kim
+Assignment: 05
+Purpose: Build a website with templating header.html and footer.html
+Notes: This page is for an artist.php.  Header, footer and body is already been created in html.
+This is a page that links all the part of the html.
  */
 
 //this will load the mustache template library
