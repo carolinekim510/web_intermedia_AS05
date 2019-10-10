@@ -135,7 +135,8 @@ img#bts_gr {
 }
 
 img#bp_gr {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 img.contact_us {
